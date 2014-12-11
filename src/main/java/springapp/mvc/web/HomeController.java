@@ -13,7 +13,7 @@ public class HomeController {
   private static final Logger log = Logger.getLogger(HomeController.class);
 
   @RequestMapping(method = RequestMethod.GET)
-  public String hello(ModelMap model) {
+  public String home(ModelMap model) {
     model.addAttribute("message", "It works!");
     return "home";
   }
