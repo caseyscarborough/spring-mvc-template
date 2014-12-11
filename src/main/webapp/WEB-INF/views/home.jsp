@@ -1,8 +1,8 @@
 <html>
 <head>
-    <title>Homepage</title>
+  <title>Homepage</title>
 </head>
 <body>
-    <p>${message}</p>
+  <p>${message}</p>
 </body>
 </html>

@@ -9,8 +9,8 @@ import java.util.regex.Pattern;
 
 @Configuration
 @ComponentScan(basePackages = {"springapp.mvc"},
-    excludeFilters={
-        @ComponentScan.Filter(type= FilterType.CUSTOM, value=ApplicationConfig.WebPackage.class)
+    excludeFilters = {
+        @ComponentScan.Filter(type = FilterType.CUSTOM, value = ApplicationConfig.WebPackage.class)
     })
 public class ApplicationConfig {
   public static class WebPackage extends RegexPatternTypeFilter {

@@ -10,11 +10,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @RequestMapping("/")
 public class HomeController {
 
-	private static final Logger log = Logger.getLogger(HomeController.class);
+  private static final Logger log = Logger.getLogger(HomeController.class);
 
-	@RequestMapping(method = RequestMethod.GET)
-	public String hello(ModelMap model) {
-		model.addAttribute("message", "It works!");
-		return "home";
-	}
+  @RequestMapping(method = RequestMethod.GET)
+  public String hello(ModelMap model) {
+    model.addAttribute("message", "It works!");
+    return "home";
+  }
 }
