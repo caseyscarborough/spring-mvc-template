@@ -13,6 +13,13 @@ dependencies {
   providedCompile "javax.servlet.jsp:jsp-api:$jspApiVersion"
   providedCompile "javax.el:javax.el-api:$jspElVersion"
 
+  compile ("org.apache.tiles:tiles-core:$tilesVersion") {
+    exclude group: 'org.slf4j'
+  }
+  compile ("org.apache.tiles:tiles-jsp:$tilesVersion") {
+    exclude group: 'org.slf4j'
+  }
+
   testCompile "junit:junit-dep:$junitVersion"
   testCompile "org.springframework:spring-test:$springVersion"
 }
