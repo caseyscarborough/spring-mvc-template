@@ -1,4 +1,4 @@
-package springapp.mvc.web;
+package springapp.mvc.config;
 
 import nz.net.ultraq.thymeleaf.LayoutDialect;
 import org.springframework.context.MessageSource;
