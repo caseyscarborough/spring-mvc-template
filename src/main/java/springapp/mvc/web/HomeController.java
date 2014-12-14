@@ -11,10 +11,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class HomeController {
 
   private static final Logger log = Logger.getLogger(HomeController.class);
+  private static final String viewDirectory = "home/";
 
   @RequestMapping(method = RequestMethod.GET)
   public String home(ModelMap model) {
     model.addAttribute("message", "It works!");
-    return "home";
+    return viewDirectory + "home";
   }
 }
