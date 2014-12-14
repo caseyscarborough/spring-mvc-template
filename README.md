@@ -14,3 +14,10 @@ cd spring-mvc-template
 ```
 
 Then check out [localhost:8080/spring-test-mvc](http://localhost:8080/spring-test-mvc) in your web browser.
+
+## Features
+
+* Spring MVC 4
+* JavaConfig instead of XML
+* Gradle for build system
+* [Thymeleaf](http://www.thymeleaf.org/) for templates and [Thymeleaf Layout Dialect](http://www.thymeleaf.org/doc/layouts.html#thymeleaf-layout-dialect) for layouts
